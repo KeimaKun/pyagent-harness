@@ -1,0 +1,16 @@
+cloud_router:
+  mode: "disabled"  # Options: disabled, ask, allow_session
+
+execution:
+  timeout_seconds: 45
+  ast_safety_check: true
+  max_react_iterations: 10
+
+model:
+  path: "PATH_TO_MODEL_GGUF"
+  n_gpu_layers: -1
+  n_ctx: 8192        # Qwen3-Coder supports up to 131072; increase if VRAM allows
+  temperature: 0.2
+  max_tokens: 2048
+  verbose: true
+  enable_thinking: false  # Set true to preserve <think>…</think> chain-of-thought blocks

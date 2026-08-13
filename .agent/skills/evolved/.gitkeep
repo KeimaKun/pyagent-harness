@@ -1,0 +1,3 @@
+# Evolved skills sandbox — agent-writable
+# This directory is managed by the agent via skill_manager.py CRUD helpers.
+# Skills here are overridden by any same-named skill in ../core/

@@ -1,0 +1,4 @@
+# Proposals directory — agent-generated proposals for core skill modifications
+# When a core/ skill blocks execution, the agent writes a proposal here
+# instead of directly modifying the read-only core/ skill.
+# Format: <skill_name>_<timestamp>_proposal.md
